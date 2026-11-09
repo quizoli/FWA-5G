@@ -247,6 +247,12 @@
           </div>
         </div>
       </div>
+
+      <div class="flex justify-end pt-4 border-t border-[var(--border)]">
+        <button type="button" onclick="switchToView('view-roi'); window.scrollTo({top:0, behavior:'smooth'});" class="px-4 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow transition flex items-center gap-2">
+          Next Page: 2. OPEX-Only ROI & Pricing Simulator →
+        </button>
+      </div>
     </section>
 
     <!-- ===================================================================== -->
@@ -576,6 +582,15 @@
           </table>
         </div>
       </div>
+
+      <div class="flex justify-between items-center pt-4 border-t border-[var(--border)]">
+        <button type="button" onclick="switchToView('view-boq'); window.scrollTo({top:0, behavior:'smooth'});" class="px-4 py-2.5 rounded-lg bg-[var(--secondary)] hover:opacity-90 text-[var(--secondary-foreground)] text-xs font-semibold shadow transition">
+          ← Previous: 3. Grant BoQ & Regions
+        </button>
+        <button type="button" onclick="switchToView('view-proposal'); window.scrollTo({top:0, behavior:'smooth'});" class="px-4 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow transition flex items-center gap-2">
+          Next Page: 5. DICT Proposal & Downloads →
+        </button>
+      </div>
     </section>
 
     <!-- ===================================================================== -->
@@ -663,6 +678,15 @@
               <strong>+20% Operator Net Margin (1.25x OPEX)</strong> at <strong>24,539 connected households (491 HH/site = 14.0% HHs)</strong> under Solar+Anchor, or <strong>33,929 HHs (679/site = 19.3% HHs)</strong> under Solar Retail-Only.</li>
           </ul>
         </div>
+      </div>
+
+      <div class="flex justify-between items-center pt-4 border-t border-[var(--border)]">
+        <button type="button" onclick="switchToView('view-directory'); window.scrollTo({top:0, behavior:'smooth'});" class="px-4 py-2.5 rounded-lg bg-[var(--secondary)] hover:opacity-90 text-[var(--secondary-foreground)] text-xs font-semibold shadow transition">
+          ← Previous: 4. 50-Site & Barangay Directory
+        </button>
+        <button type="button" onclick="switchToView('view-map'); window.scrollTo({top:0, behavior:'smooth'});" class="px-4 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow transition flex items-center gap-2">
+          Return to Page 1: Coverage & 50-Site Map ↺
+        </button>
       </div>
     </section>
   </main>
