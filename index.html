@@ -639,45 +639,261 @@
         </div>
       </div>
 
-      <!-- Formal Proposal Reader -->
-      <div class="bg-[var(--card)] border border-[var(--border)] rounded-xl p-6 md:p-8 shadow-sm space-y-5 max-w-4xl mx-auto">
-        <div class="flex flex-wrap items-center justify-between gap-3 border-b border-[var(--border)] pb-4">
-          <div>
-            <div class="text-xs font-semibold uppercase tracking-wider text-blue-500">Formal Government Submission</div>
-            <h2 class="text-xl font-bold mt-1">Proposal for a 50-Site 5G NR n50 (1.5 GHz) Fixed Wireless Broadband Network</h2>
-            <p class="text-xs text-[var(--muted-foreground)]">Submitted to the Office of the Secretary, Department of Information and Communications Technology (DICT) • 9 November 2026</p>
+      <!-- Formal Proposal Reader (Full Executive Version) -->
+      <div class="bg-[var(--card)] border border-[var(--border)] rounded-xl p-6 md:p-10 shadow-sm space-y-8 max-w-4xl mx-auto text-[var(--foreground)]">
+        <!-- Document Header -->
+        <div class="border-b border-[var(--border)] pb-6 space-y-2">
+          <div class="flex flex-wrap items-center justify-between gap-3">
+            <span class="px-3 py-1 rounded-full text-xs font-bold bg-blue-600/15 text-blue-500 border border-blue-500/30 uppercase tracking-wider">
+              Strategic Investment Proposal &amp; Board Memorandum
+            </span>
+            <button onclick="window.print()" type="button" class="no-print px-4 py-2 rounded-lg bg-blue-600 text-white text-xs font-bold hover:bg-blue-700 shadow transition">
+              🖨️ Print / Save as PDF
+            </button>
           </div>
-          <button onclick="window.print()" type="button" class="no-print px-3.5 py-1.5 rounded-lg bg-blue-600 text-white text-xs font-semibold hover:opacity-90">Print / Save as PDF</button>
+          <h1 class="text-2xl md:text-3xl font-extrabold text-[var(--foreground)] tracking-tight mt-2">
+            Commercial &amp; Operational Proposal for 50-Site GIDA Fixed Wireless Access (FWA) Expansion
+          </h1>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-3 text-xs text-[var(--muted-foreground)]">
+            <div><strong>TO:</strong> Chief Executive Officer (CEO) &amp; Board of Directors</div>
+            <div><strong>DATE:</strong> 9 November 2026</div>
+            <div><strong>FROM:</strong> Chief Technology Officer (CTO) &amp; Chief Financial Officer (CFO)</div>
+            <div><strong>RECOMMENDED OPTION:</strong> <span class="text-blue-500 font-bold">Option 2 (Affordable GIDA Mix &amp; Solar OPEX)</span></div>
+          </div>
         </div>
 
-        <div class="space-y-4 text-sm leading-relaxed">
-          <h3 class="text-base font-bold text-blue-500">1. Executive Proposal &amp; Non-Recoverable Government CAPEX Structure (Strictly 50 n50 Sites)</h3>
-          <p>
-            We respectfully propose a <strong>strictly 50-base-station 5G NR Band n50 (1.5 GHz / 1432–1517 MHz TDD) Fixed Wireless Access (FWA) network</strong> in DICT-selected unserved and underserved areas, targeting the top 50 high-density unserved clusters identified across all <strong>3,355 unserved and underserved barangays</strong> nationwide (2,647 Tier 1 True Unserved barangays with zero MNO 4G/5G and zero FTTH, plus 708 Tier 2 Underserved barangays with &lt;5 Mbps cellular and zero FTTH). Across these 50 clusters, the 50 n50 base stations (6.0 km cell radius) cover <strong>473 unserved/underserved barangays</strong> (9.5 barangays/site), <strong>836,264 citizens</strong>, and <strong>175,820 estimated households</strong> (averaging <strong>3,516 households per BTS site</strong> based on PSA 2020 CPH regional household sizes).
-          </p>
-          <p>
-            Under this model, <strong>the Government does not recover the CAPEX it infuses</strong> (treating the 50-site infrastructure and demand-led household CPEs as a non-recoverable social infrastructure grant), while the competitively selected Operating Partner funds 100% of recurring OPEX. Optimum retail pricing and minimum subscriber thresholds to break-even and ROI are therefore determined <strong>strictly from OPEX</strong>:
-          </p>
-          <ul class="list-disc pl-5 space-y-1 text-xs">
-            <li><strong>Non-Recoverable Government CAPEX Grant (0% Tariff Recovery):</strong> <strong>USD 12,794,900 (PHP 767.694M excl. VAT | PHP 863.656M incl. 12.5% VAT)</strong> for the 50 Co-Located n50 Base Stations (<strong>$255,898/site</strong>), plus demand-led household CPE kits at <strong>USD 55 (PHP 3,300) per connected household</strong>.</li>
-            <li><strong>Core Network CAPEX Removed ($0 Core CAPEX → ₱10.00/Subscriber Monthly Supplier Fee):</strong> Saves <strong>USD 2,805,000 (PHP 168.300M excl. VAT)</strong> in upfront Core CAPEX; instead, the Core Supplier is paid <strong>PHP 10.00 per active subscriber per month</strong> in OPEX.</li>
-            <li><strong>Simplified Spectrum User Fee (₱5.00/Subscriber Monthly SUF):</strong> In lieu of the established NTC SUF, regulatory SUF is <strong>PHP 5.00 per active subscriber per month</strong> (total variable per-subscriber OPEX = <strong>₱15.00/subscriber/month</strong>).</li>
-            <li><strong>Annual Fixed Site OPEX (50 Sites):</strong> <strong>USD 3,252,000/yr (PHP 195.120M/yr = PHP 325,200/site/mo)</strong> under Solar-Hybrid Optimized OPEX (where the 16kW Solar + 450AH Li-Ion battery bank offsets 60% of commercial electricity and diesel), or <strong>USD 4,800,000/yr (PHP 288.000M/yr = PHP 480,000/site/mo)</strong> under unadjusted Base Spreadsheet OPEX.</li>
-          </ul>
-
-          <h3 class="text-base font-bold text-blue-500 pt-2">2. OPEX-Only Optimum Tariff Mechanisms &amp; Minimum Subscribers to Break-Even / Operator ROI</h3>
-          <p class="text-xs">
-            Because zero CAPEX recovery is loaded onto retail tariffs, both the <strong>Optimum 4-Tier Cross-Subsidized Mix (₱1,069 Gross → ₱910.83/mo Net after VAT, 3% loss, ₱5 SUF &amp; ₱10 Core fee)</strong> and the <strong>Affordable GIDA Social-First Mix (40% @ ₱499, 45% @ ₱699, 15% @ ₱1,299 → ₱709 Gross / ₱599.04/mo Net after fees)</strong> achieve rapid OPEX Break-Even and sustainable Operator ROI across a small fraction of the <strong>175,820 estimated households</strong>:
-          </p>
-          <ul class="list-disc pl-5 space-y-1 text-xs">
-            <li><strong>Optimum 4-Tier Mix (₱1,069 Gross / ₱910.83 Net after ₱15 Fees):</strong>
-              <strong>100% OPEX Break-Even</strong> at <strong>12,911 connected households (258 HH/site = 7.3% of 175,820 Est. HHs)</strong> under Solar+Anchor, <strong>17,852 HHs (357/site = 10.2% HHs)</strong> under Solar Retail-Only, or <strong>26,350 HHs (527/site = 15.0% HHs)</strong> under Base OPEX.
-              <strong>+20% Operator Net Margin (1.25x OPEX)</strong> at <strong>16,139 connected households (323 HH/site = 9.2% HHs)</strong> under Solar+Anchor, <strong>22,315 HHs (446/site = 12.7% HHs)</strong> under Solar Retail-Only, or <strong>32,937 HHs (659/site = 18.7% HHs)</strong> under Base OPEX.</li>
-            <li><strong>Affordable GIDA Social-First Mix (₱709 Gross / ₱599.04 Net after ₱15 Fees):</strong>
-              <strong>100% OPEX Break-Even</strong> at <strong>19,631 connected households (393 HH/site = 11.2% of Est. HHs)</strong> under Solar+Anchor, or <strong>27,143 HHs (543/site = 15.4% HHs)</strong> under Solar Retail-Only.
-              <strong>+20% Operator Net Margin (1.25x OPEX)</strong> at <strong>24,539 connected households (491 HH/site = 14.0% HHs)</strong> under Solar+Anchor, or <strong>33,929 HHs (679/site = 19.3% HHs)</strong> under Solar Retail-Only.</li>
-          </ul>
+        <!-- CEO Executive Scorecard -->
+        <div class="rounded-xl bg-slate-900 border border-slate-800 p-5 md:p-6 text-white font-mono text-xs space-y-3 shadow-lg">
+          <div class="text-emerald-400 font-bold border-b border-slate-700 pb-2 text-sm">
+            ========================================================================================<br>
+            THE CEO SCORECARD: 50-SITE OPTION 2 STRATEGIC OVERVIEW<br>
+            ========================================================================================
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 leading-relaxed">
+            <div>Company Upfront Base CAPEX: <span class="text-emerald-400 font-bold">PHP 0.00 (100% DICT Grant Funded)</span></div>
+            <div>Turnkey Project CAPEX Baseline: <span class="text-amber-400 font-bold">USD 14,409,900.00</span></div>
+            <div>Co-Located Base Infra CAPEX: <span class="text-blue-400 font-bold">USD 12,794,900.00 (₱767.69M excl. VAT)</span></div>
+            <div>Full Annual OPEX Baseline: <span class="text-rose-400 font-bold">USD 5,492,307.69 / yr (₱329.54M / yr)</span></div>
+            <div>Optimized Solar Cash OPEX: <span class="text-emerald-400 font-bold">USD 3,252,000.00 / yr (₱195.12M / yr)</span></div>
+            <div>Total Covered Addressable Market: <span class="font-bold">175,820 Households (473 Brgys / 836k Pop)</span></div>
+            <div>Average Market per BTS: <span class="font-bold">3,516 Households per Site (6.0 km radius)</span></div>
+            <div>Retail Pricing (Option 2): <span class="text-cyan-400 font-bold">Blended ₱709.00 / mo Gross (₱499 to ₱1,299)</span></div>
+            <div>Net Cash Contribution per Home: <span class="text-emerald-400 font-bold">₱599.04 / month (₱7,188.54 / year)</span></div>
+            <div>OPEX Break-Even (with Anchor): <span class="text-emerald-400 font-bold">11.2% Market Penetration (19,631 Homes = 393/site)</span></div>
+            <div>Target +20% Operating Margin: <span class="text-cyan-400 font-bold">14.0% Market Penetration (24,539 Homes = 491/site)</span></div>
+            <div>Annual EBITDA @ 20% Penetration: <span class="text-emerald-400 font-bold">+PHP 100.08 Million / year (+51.3% cash margin)</span></div>
+          </div>
         </div>
+
+        <!-- Section 1 -->
+        <section class="space-y-4">
+          <h2 class="text-lg font-bold text-blue-500 border-b border-[var(--border)] pb-2">1. Executive Summary: The Strategic Opportunity</h2>
+          <p class="text-sm leading-relaxed text-[var(--foreground)]">
+            We propose entering a public-private partnership with the Department of Information and Communications Technology (DICT) to deploy and operate a <strong>strictly 50-site 5G NR Band n50 (1.5 GHz / 1432–1517 MHz TDD) Fixed Wireless Access (FWA) broadband network</strong> across high-density unserved and underserved rural communities (GIDAs) nationwide.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+            <div class="p-4 rounded-xl border border-[var(--border)] bg-[var(--background)] space-y-1.5">
+              <div class="font-bold text-sm text-[var(--foreground)]">1. Zero Upfront Balance Sheet Exposure</div>
+              <p class="text-[var(--muted-foreground)] leading-relaxed">The government infuses 100% of the base station infrastructure CAPEX (<strong>.795M / ₱767.69M</strong>) and customer premises equipment (CPEs) as a <strong>non-recoverable public grant</strong>. Our company incurs zero debt and does not amortize or repay this capital.</p>
+            </div>
+            <div class="p-4 rounded-xl border border-[var(--border)] bg-[var(--background)] space-y-1.5">
+              <div class="font-bold text-sm text-[var(--foreground)]">2. Eliminated Core Network Software Outlay</div>
+              <p class="text-[var(--muted-foreground)] leading-relaxed">By negotiating a pay-as-you-grow arrangement with the Core Network supplier at <strong>₱10.00/subscriber/month</strong>, we avoided <strong>.805M (₱168.30M)</strong> in Day-1 software license commitments.</p>
+            </div>
+            <div class="p-4 rounded-xl border border-[var(--border)] bg-[var(--background)] space-y-1.5">
+              <div class="font-bold text-sm text-[var(--foreground)]">3. Engineered Energy Savings (Solar-Hybrid)</div>
+              <p class="text-[var(--muted-foreground)] leading-relaxed">By mandating <strong>16kW solar arrays and 450AH lithium-ion battery banks</strong> in the government grant, we slashed site electricity and diesel costs by 60%, dropping annual cash OPEX from ₱288.0M to <strong>₱195.12M / year</strong> (₱325,200 / site / month).</p>
+            </div>
+            <div class="p-4 rounded-xl border border-[var(--border)] bg-[var(--background)] space-y-1.5">
+              <div class="font-bold text-sm text-[var(--foreground)]">4. Low Penetration Hurdle to Profitability</div>
+              <p class="text-[var(--muted-foreground)] leading-relaxed">At our recommended <strong>Affordable GIDA pricing (₱709.00/mo blended)</strong>, we break even at just <strong>11.2% household penetration (393 homes/site)</strong> with an LGU anchor contract, and generate <strong>+20% net margin at only 14.0% market share</strong>. Over 85% of covered homes remain untapped upside.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="space-y-4">
+          <h2 class="text-lg font-bold text-blue-500 border-b border-[var(--border)] pb-2">2. Deal Structure &amp; Commercial Framework</h2>
+          <p class="text-sm leading-relaxed text-[var(--foreground)]">
+            The transaction is structured under a Government-Assisted Infrastructure &amp; Partner-Operated Concession:
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+            <div class="p-4 rounded-xl border border-blue-500/30 bg-blue-500/5 space-y-2">
+              <div class="font-bold text-blue-500 text-sm">DICT &amp; Government (Capital Partner)</div>
+              <ul class="list-disc pl-4 space-y-1 text-[var(--muted-foreground)]">
+                <li>Provides 100% Non-Recoverable CAPEX Grant: <strong>.795M (₱767.69M)</strong></li>
+                <li>Funds Household CPE Kits @ /unit as demand develops</li>
+                <li>Provides free co-location on existing government &amp; shared towers</li>
+                <li>Awards 6 LGU/School Anchor Endpoints per site @ ₱15,000/mo (<strong>₱54.0M/yr</strong>)</li>
+              </ul>
+            </div>
+            <div class="p-4 rounded-xl border border-emerald-500/30 bg-emerald-500/5 space-y-2">
+              <div class="font-bold text-emerald-500 text-sm">Our Operating Company (Commercial Partner)</div>
+              <ul class="list-disc pl-4 space-y-1 text-[var(--muted-foreground)]">
+                <li>Incurs <strong>Zero Debt</strong> for tower and BTS infrastructure</li>
+                <li>Funds solar-optimized site operations (<strong>₱195.12M / year</strong>)</li>
+                <li>Pays variable <strong>₱10/mo Core Fee + ₱5/mo Regulatory SUF</strong></li>
+                <li>Retains 100% of recurring retail and enterprise subscription cash flows</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="p-4 rounded-xl border border-[var(--border)] bg-[var(--background)] space-y-2 text-xs">
+            <div class="font-bold text-sm text-[var(--foreground)]">Capital &amp; Legal Terms</div>
+            <ul class="list-disc pl-5 space-y-1 text-[var(--muted-foreground)] leading-relaxed">
+              <li><strong>Asset Ownership:</strong> Government retains title to procured physical assets. Company is granted an exclusive 15-year irrevocable Right of Use (IRU) to operate the commercial network.</li>
+              <li><strong>Regulatory Compliance:</strong> Spectrum User Fees (SUF) are capped at a flat <strong>₱5.00/subscriber/month</strong>, insulating the operator from legacy fixed-spectrum fees.</li>
+              <li><strong>Non-Recovery Clause:</strong> The project charter explicitly stipulates <strong>0% government CAPEX recovery</strong> from retail tariffs, enabling social-first affordability.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section class="space-y-4">
+          <h2 class="text-lg font-bold text-blue-500 border-b border-[var(--border)] pb-2">3. Product Pricing &amp; Unit Margin Economics (Option 2)</h2>
+          <p class="text-sm leading-relaxed text-[var(--foreground)]">
+            Rather than standard urban tariffs, we implement <strong>Option 2: Affordable GIDA Social-First Pricing</strong> tailored to rural disposable income:
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
+            <div class="p-4 rounded-xl border border-[var(--border)] bg-[var(--background)]">
+              <div class="font-bold text-blue-500 text-sm">Social Lifeline (40%)</div>
+              <div class="text-xl font-black mt-1">₱499 <span class="text-xs font-normal text-[var(--muted-foreground)]">/ month</span></div>
+              <div class="text-xs text-[var(--muted-foreground)] mt-2">25 Mbps Uncapped • Everyday browsing, DepEd modules, video calls, social media</div>
+            </div>
+            <div class="p-4 rounded-xl border border-[var(--border)] bg-[var(--background)]">
+              <div class="font-bold text-emerald-500 text-sm">Family Standard (45%)</div>
+              <div class="text-xl font-black mt-1">₱699 <span class="text-xs font-normal text-[var(--muted-foreground)]">/ month</span></div>
+              <div class="text-xs text-[var(--muted-foreground)] mt-2">50 Mbps Uncapped • Multi-device streaming, online work, freelance, digital payments</div>
+            </div>
+            <div class="p-4 rounded-xl border border-[var(--border)] bg-[var(--background)]">
+              <div class="font-bold text-purple-500 text-sm">Microenterprise (15%)</div>
+              <div class="text-xl font-black mt-1">₱1,299 <span class="text-xs font-normal text-[var(--muted-foreground)]">/ month</span></div>
+              <div class="text-xs text-[var(--muted-foreground)] mt-2">100 Mbps Priority SLA • Sari-sari stores, local cooperatives, grain mills, ecotourism</div>
+            </div>
+          </div>
+
+          <div class="table-wrapper border border-[var(--border)] rounded-xl overflow-hidden">
+            <table class="w-full text-xs text-left">
+              <thead class="bg-[var(--secondary)] text-[var(--secondary-foreground)] font-semibold">
+                <tr>
+                  <th class="p-3">Financial Bridge Step</th>
+                  <th class="p-3 text-right">Amount per Sub / Mo</th>
+                  <th class="p-3 text-right">% of Gross</th>
+                  <th class="p-3">Accounting Nature</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-[var(--border)]">
+                <tr><td class="p-3 font-semibold">Gross Blended ARPU</td><td class="p-3 text-right font-bold text-blue-500">₱709.00</td><td class="p-3 text-right">100.0%</td><td>Weighted customer invoice price</td></tr>
+                <tr><td class="p-3">Less: 12% Value Added Tax (VAT)</td><td class="p-3 text-right text-red-500">-₱75.96</td><td class="p-3 text-right">10.7%</td><td>Statutory pass-through to BIR</td></tr>
+                <tr><td class="p-3">Net Billed Revenue</td><td class="p-3 text-right font-semibold">₱633.04</td><td class="p-3 text-right">89.3%</td><td>Net company revenue</td></tr>
+                <tr><td class="p-3">Less: Provision for Bad Debts / Churn (3%)</td><td class="p-3 text-right text-red-500">-₱19.00</td><td class="p-3 text-right">2.7%</td><td>Rural collection risk reserve</td></tr>
+                <tr><td class="p-3">Less: Core Network Supplier Fee</td><td class="p-3 text-right text-red-500">-₱10.00</td><td class="p-3 text-right">1.4%</td><td>Variable core license opex</td></tr>
+                <tr><td class="p-3">Less: Simplified Spectrum User Fee (SUF)</td><td class="p-3 text-right text-red-500">-₱5.00</td><td class="p-3 text-right">0.7%</td><td>NTC spectrum regulatory charge</td></tr>
+                <tr class="bg-emerald-500/10 font-bold"><td class="p-3 text-emerald-500">Net Operating Cash Contribution per Home</td><td class="p-3 text-right text-emerald-500 font-extrabold">₱599.04</td><td class="p-3 text-right text-emerald-500">84.5%</td><td>Net cash flow to offset site OPEX</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Section 4 -->
+        <section class="space-y-4">
+          <h2 class="text-lg font-bold text-blue-500 border-b border-[var(--border)] pb-2">4. Financial Projections &amp; Break-Even Sensitivity Matrix</h2>
+          <p class="text-sm leading-relaxed text-[var(--foreground)]">
+            Household penetration analysis across the <strong>175,820 addressable households</strong> (averaging 3,516 homes per site):
+          </p>
+
+          <div class="table-wrapper border border-[var(--border)] rounded-xl overflow-hidden">
+            <table class="w-full text-xs text-left">
+              <thead class="bg-[var(--secondary)] text-[var(--secondary-foreground)] font-semibold">
+                <tr>
+                  <th class="p-2.5">Penetration (%)</th>
+                  <th class="p-2.5 text-right">Total Subs</th>
+                  <th class="p-2.5 text-right">Subs / Site</th>
+                  <th class="p-2.5 text-right">Net Retail Rev</th>
+                  <th class="p-2.5 text-right">LGU Anchor</th>
+                  <th class="p-2.5 text-right">Fixed OPEX</th>
+                  <th class="p-2.5 text-right">Net Cash Flow (w/ Anchor)</th>
+                  <th class="p-2.5 text-center">Status</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-[var(--border)]">
+                <tr><td class="p-2.5">2.8%</td><td class="p-2.5 text-right font-medium">5,000</td><td class="p-2.5 text-right">100</td><td class="p-2.5 text-right">₱35.94M</td><td class="p-2.5 text-right">₱54.0M</td><td class="p-2.5 text-right text-red-500">₱195.12M</td><td class="p-2.5 text-right text-red-500 font-bold">-₱105.18M</td><td class="p-2.5 text-center"><span class="px-2 py-0.5 rounded bg-red-500/15 text-red-500 font-semibold">Ramp-Up</span></td></tr>
+                <tr><td class="p-2.5">5.7%</td><td class="p-2.5 text-right font-medium">10,000</td><td class="p-2.5 text-right">200</td><td class="p-2.5 text-right">₱71.89M</td><td class="p-2.5 text-right">₱54.0M</td><td class="p-2.5 text-right text-red-500">₱195.12M</td><td class="p-2.5 text-right text-red-500 font-bold">-₱69.23M</td><td class="p-2.5 text-center"><span class="px-2 py-0.5 rounded bg-red-500/15 text-red-500 font-semibold">Early Stage</span></td></tr>
+                <tr><td class="p-2.5">8.5%</td><td class="p-2.5 text-right font-medium">15,000</td><td class="p-2.5 text-right">300</td><td class="p-2.5 text-right">₱107.83M</td><td class="p-2.5 text-right">₱54.0M</td><td class="p-2.5 text-right text-red-500">₱195.12M</td><td class="p-2.5 text-right text-red-500 font-bold">-₱33.29M</td><td class="p-2.5 text-center"><span class="px-2 py-0.5 rounded bg-amber-500/15 text-amber-500 font-semibold">Near Break-Even</span></td></tr>
+                <tr class="bg-blue-500/10 font-bold"><td class="p-2.5 text-blue-500">11.2%</td><td class="p-2.5 text-right text-blue-500">19,631</td><td class="p-2.5 text-right text-blue-500">393</td><td class="p-2.5 text-right">₱141.12M</td><td class="p-2.5 text-right">₱54.0M</td><td class="p-2.5 text-right">₱195.12M</td><td class="p-2.5 text-right text-blue-500 font-extrabold">₱0.00</td><td class="p-2.5 text-center"><span class="px-2 py-0.5 rounded bg-blue-600 text-white font-bold">100% OPEX Break-Even</span></td></tr>
+                <tr class="bg-emerald-500/10 font-bold"><td class="p-2.5 text-emerald-500">14.0%</td><td class="p-2.5 text-right text-emerald-500">24,539</td><td class="p-2.5 text-right text-emerald-500">491</td><td class="p-2.5 text-right">₱176.40M</td><td class="p-2.5 text-right">₱54.0M</td><td class="p-2.5 text-right">₱195.12M</td><td class="p-2.5 text-right text-emerald-500 font-extrabold">+₱35.28M</td><td class="p-2.5 text-center"><span class="px-2 py-0.5 rounded bg-emerald-600 text-white font-bold">+20% Net Profit</span></td></tr>
+                <tr><td class="p-2.5">17.1%</td><td class="p-2.5 text-right font-medium">30,000</td><td class="p-2.5 text-right">600</td><td class="p-2.5 text-right">₱215.66M</td><td class="p-2.5 text-right">₱54.0M</td><td class="p-2.5 text-right">₱195.12M</td><td class="p-2.5 text-right text-emerald-500 font-bold">+₱74.54M</td><td class="p-2.5 text-center"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-500 font-semibold">High Cash Flow</span></td></tr>
+                <tr class="bg-purple-500/10 font-bold"><td class="p-2.5 text-purple-500">20.0%</td><td class="p-2.5 text-right text-purple-500">35,164</td><td class="p-2.5 text-right text-purple-500">703</td><td class="p-2.5 text-right">₱252.78M</td><td class="p-2.5 text-right">₱54.0M</td><td class="p-2.5 text-right">₱195.12M</td><td class="p-2.5 text-right text-purple-500 font-extrabold">+₱111.66M</td><td class="p-2.5 text-center"><span class="px-2 py-0.5 rounded bg-purple-600 text-white font-bold">Scale Profitability</span></td></tr>
+                <tr><td class="p-2.5">22.8%</td><td class="p-2.5 text-right font-medium">40,000</td><td class="p-2.5 text-right">800</td><td class="p-2.5 text-right">₱287.54M</td><td class="p-2.5 text-right">₱54.0M</td><td class="p-2.5 text-right">₱195.12M</td><td class="p-2.5 text-right text-emerald-500 font-bold">+₱146.42M</td><td class="p-2.5 text-center"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-500 font-semibold">Dominant Provider</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Section 5 -->
+        <section class="space-y-4">
+          <h2 class="text-lg font-bold text-blue-500 border-b border-[var(--border)] pb-2">5. Risk Assessment &amp; Mitigation Matrix</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+            <div class="p-4 rounded-xl border border-[var(--border)] bg-[var(--background)] space-y-1.5">
+              <div class="font-bold text-[var(--foreground)]">Grid Power Instability &amp; Diesel Inflation</div>
+              <p class="text-[var(--muted-foreground)]"><strong class="text-emerald-500">Mitigated in CAPEX:</strong> The 16kW solar PV array and 450AH lithium-ion storage bank eliminate 60% of power costs. System operates autonomously on solar during daylight and battery at night.</p>
+            </div>
+            <div class="p-4 rounded-xl border border-[var(--border)] bg-[var(--background)] space-y-1.5">
+              <div class="font-bold text-[var(--foreground)]">Customer Acquisition Cost &amp; Terminal Affordability</div>
+              <p class="text-[var(--muted-foreground)]"><strong class="text-emerald-500">100% Grant-Funded:</strong> DICT absorbs the  CPE cost per household. Customers receive terminal hardware on a loan basis, eliminating subscriber upfront friction.</p>
+            </div>
+            <div class="p-4 rounded-xl border border-[var(--border)] bg-[var(--background)] space-y-1.5">
+              <div class="font-bold text-[var(--foreground)]">Core Network License Stranding</div>
+              <p class="text-[var(--muted-foreground)]"><strong class="text-emerald-500">Zero License Commitments:</strong> Replaced the traditional .805M upfront core purchase with a variable ₱10.00/sub/month fee. If subscribers churn, software costs decline proportionally.</p>
+            </div>
+            <div class="p-4 rounded-xl border border-[var(--border)] bg-[var(--background)] space-y-1.5">
+              <div class="font-bold text-[var(--foreground)]">Backhaul Delays &amp; Remote Terrains</div>
+              <p class="text-[var(--muted-foreground)]"><strong class="text-emerald-500">Turnkey LEO Satellite:</strong> Every site is provisioned with 4 bonded Starlink LEO terminals delivering 600 Mbps immediate backhaul, bypassing civil fiber delays.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 6 -->
+        <section class="space-y-4">
+          <h2 class="text-lg font-bold text-blue-500 border-b border-[var(--border)] pb-2">6. Implementation Timeline &amp; Rollout Tranches</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
+            <div class="p-4 rounded-xl border border-[var(--border)] bg-[var(--background)] space-y-1.5">
+              <span class="px-2 py-0.5 rounded bg-blue-600/15 text-blue-500 font-semibold">Tranche 1 (Months 1-3)</span>
+              <div class="font-bold text-sm">Pilot Deployment</div>
+              <p class="text-[var(--muted-foreground)]">5 Sites (Sulu &amp; Maguindanao clusters). Validate 5G NR n50 radio link budget &amp; Starlink backhaul bonding. Onboard initial 3,500 subscribers.</p>
+            </div>
+            <div class="p-4 rounded-xl border border-[var(--border)] bg-[var(--background)] space-y-1.5">
+              <span class="px-2 py-0.5 rounded bg-blue-600/15 text-blue-500 font-semibold">Tranche 2 (Months 4-5)</span>
+              <div class="font-bold text-sm">Regional Expansion</div>
+              <p class="text-[var(--muted-foreground)]">15 Sites (Lanao del Sur, Lanao del Norte, Palawan). Target 6,500 connections; onboard regional field maintenance teams.</p>
+            </div>
+            <div class="p-4 rounded-xl border border-[var(--border)] bg-[var(--background)] space-y-1.5">
+              <span class="px-2 py-0.5 rounded bg-blue-600/15 text-blue-500 font-semibold">Tranche 3 (Months 6-7)</span>
+              <div class="font-bold text-sm">Visayas &amp; Zamboanga</div>
+              <p class="text-[var(--muted-foreground)]">15 Sites (Samar, Eastern Samar, Zamboanga Peninsula). Target 6,500 connections; establish localized customer service desks.</p>
+            </div>
+            <div class="p-4 rounded-xl border border-[var(--border)] bg-[var(--background)] space-y-1.5">
+              <span class="px-2 py-0.5 rounded bg-blue-600/15 text-blue-500 font-semibold">Tranche 4 (Months 8-9)</span>
+              <div class="font-bold text-sm">National Scale</div>
+              <p class="text-[var(--muted-foreground)]">15 Sites (Bicol, Caraga, Ilocos, Benguet). Full 50-site commercial operations achieved; target 22,000+ active connections.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 7 -->
+        <section class="space-y-4">
+          <h2 class="text-lg font-bold text-blue-500 border-b border-[var(--border)] pb-2">7. Recommended Board Resolution &amp; Next Steps</h2>
+          <div class="p-5 rounded-xl border border-emerald-500/30 bg-emerald-500/5 space-y-3 text-xs">
+            <div class="font-bold text-sm text-emerald-500">Management recommends that the Board of Directors approve:</div>
+            <ol class="list-decimal pl-5 space-y-2 text-[var(--foreground)] leading-relaxed">
+              <li><strong>Submission of Formal Proposal to DICT:</strong> Deliver the formal proposal for the 50-Site GIDA FWA Network Expansion based on Option 2 (Affordable GIDA Pricing &amp; Solar OPEX) to the Office of the Secretary, DICT.</li>
+              <li><strong>Execution of Public Grant Agreement:</strong> Negotiate the <strong>USD 12.795 Million (PHP 767.69M) non-recoverable capital grant</strong> covering base station infrastructure, solar arrays, and demand-led CPE funding.</li>
+              <li><strong>Securing Institutional Anchor Contract:</strong> Finalize terms with DICT under RA 10929 for the <strong>₱54.00M/year wholesale anchor contract</strong> (6 endpoints per site across 50 sites @ ₱15,000/mo).</li>
+              <li><strong>Finalizing Pay-As-You-Grow Core Agreement:</strong> Sign the definitive software contract with the Core Network vendor at <strong>₱10.00 per active subscriber per month</strong>, eliminating upfront core licenses.</li>
+            </ol>
+          </div>
+        </section>
       </div>
 
       <div class="flex justify-between items-center pt-4 border-t border-[var(--border)]">
