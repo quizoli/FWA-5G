@@ -1,0 +1,1656 @@
+{
+  "type": "FeatureCollection",
+  "name": "PH_Proposed_50_n50_Sites",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0001",
+        "rank": 1,
+        "hub_barangay": "Panabuan",
+        "municipality": "Indanan",
+        "province": "Sulu",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 23,
+        "tier1_unserved_bgys": 12,
+        "tier2_underserved_bgys": 11,
+        "population_served": 32415,
+        "estimated_households": 5894,
+        "covered_barangays_list": "Bud-Taran, Kabbon Maas, Kan Islam, Kuppong, Paligue, Panabuan, Sapah Malaum, Tumantangis (+15 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9637,
+          5.9616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0002",
+        "rank": 2,
+        "hub_barangay": "Masjid Punjungan",
+        "municipality": "Kalingalan Caluang",
+        "province": "Sulu",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 11,
+        "tier1_unserved_bgys": 11,
+        "tier2_underserved_bgys": 0,
+        "population_served": 44311,
+        "estimated_households": 8057,
+        "covered_barangays_list": "Kambing, Kanlagay, Pang, Pangdan Pangdan, Pitogo, Karungdong (Pob.), Tunggol, Masjid Bayle (+3 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2908,
+          5.9016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0003",
+        "rank": 3,
+        "hub_barangay": "Dalih",
+        "municipality": "Talipao",
+        "province": "Sulu",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 19,
+        "tier1_unserved_bgys": 4,
+        "tier2_underserved_bgys": 15,
+        "population_served": 29280,
+        "estimated_households": 5324,
+        "covered_barangays_list": "Bangalan, Ratag Limbon, Langhub, Buroh, Dalih, Kiutaan, Kuttong, Lagtoh (+11 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0432,
+          5.984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0004",
+        "rank": 4,
+        "hub_barangay": "Balanakan",
+        "municipality": "Datu Salibo",
+        "province": "Maguindanao del Sur",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 17,
+        "tier1_unserved_bgys": 12,
+        "tier2_underserved_bgys": 5,
+        "population_served": 28474,
+        "estimated_households": 5177,
+        "covered_barangays_list": "Alonganan, Dado, Duaminanga, Kalipapa, Masigay, Kalumamis, Gawang, Alonganan (+9 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.4675,
+          7.0089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0005",
+        "rank": 5,
+        "hub_barangay": "Kalang (Pob.)",
+        "municipality": "Tapul",
+        "province": "Sulu",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 19,
+        "tier1_unserved_bgys": 13,
+        "tier2_underserved_bgys": 6,
+        "population_served": 23670,
+        "estimated_households": 4304,
+        "covered_barangays_list": "Banting, Hawan, Kalang (Pob.), Kamaunggi, Kanmangon, Kanaway, Kaumpang, Pagatpat (+11 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.884,
+          5.7096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0006",
+        "rank": 6,
+        "hub_barangay": "Ratag",
+        "municipality": "Siasi",
+        "province": "Sulu",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 18,
+        "tier1_unserved_bgys": 15,
+        "tier2_underserved_bgys": 3,
+        "population_served": 21230,
+        "estimated_households": 3860,
+        "covered_barangays_list": "Bulansing Tara, Duhol Tara, East Sisangat, Ipil, Kabubu, Latung, Luuk Tara, Manta (+10 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8651,
+          5.5443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0007",
+        "rank": 7,
+        "hub_barangay": "Punud",
+        "municipality": "Madalum",
+        "province": "Lanao del Sur",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 21,
+        "tier1_unserved_bgys": 19,
+        "tier2_underserved_bgys": 2,
+        "population_served": 15906,
+        "estimated_households": 2892,
+        "covered_barangays_list": "Barua, Gurain, Raya, Rorowan, Sugod, Tambo, Cabasaran, Lilitun (+13 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.0898,
+          7.9164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0008",
+        "rank": 8,
+        "hub_barangay": "Mahala",
+        "municipality": "Talipao",
+        "province": "Sulu",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 13,
+        "tier1_unserved_bgys": 10,
+        "tier2_underserved_bgys": 3,
+        "population_served": 27250,
+        "estimated_households": 4955,
+        "covered_barangays_list": "Kabungkol, Lambanah, Lungkiaban, Mabahay, Mahala, Marsada, Niog-Sangahan, Talipao Proper (+5 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1367,
+          5.9476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0009",
+        "rank": 9,
+        "hub_barangay": "Lingco-an",
+        "municipality": "Tangcal",
+        "province": "Lanao del Norte",
+        "region": "Region X (Northern Mindanao)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 17,
+        "tier1_unserved_bgys": 17,
+        "tier2_underserved_bgys": 0,
+        "population_served": 16472,
+        "estimated_households": 3831,
+        "covered_barangays_list": "Lubo, Malabaogan, Pangao, Pelingkingan, Rarab, Lingco-an, Lumba-Bayabao, Madaya (+9 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.9937,
+          8.0277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0010",
+        "rank": 10,
+        "hub_barangay": "Bulayan",
+        "municipality": "Datu Unsay",
+        "province": "Maguindanao del Sur",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 12,
+        "tier1_unserved_bgys": 11,
+        "tier2_underserved_bgys": 1,
+        "population_served": 21600,
+        "estimated_households": 3927,
+        "covered_barangays_list": "Ahan, Datalpandan, Kateman, Bulayan, Macalag, Panangeti, Tuntungan, Kubentong (+4 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.3524,
+          6.8761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0011",
+        "rank": 11,
+        "hub_barangay": "Timuddas",
+        "municipality": "Pata",
+        "province": "Sulu",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 11,
+        "tier1_unserved_bgys": 11,
+        "tier2_underserved_bgys": 0,
+        "population_served": 20146,
+        "estimated_households": 3663,
+        "covered_barangays_list": "Andalan, Daungdong, Kamawi, Kayawan (Pob.), Kiput, Likud, Luuk-tulay, Niog-niog (+3 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1996,
+          5.8045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0012",
+        "rank": 12,
+        "hub_barangay": "Andalan",
+        "municipality": "Omar",
+        "province": "Sulu",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 8,
+        "tier1_unserved_bgys": 4,
+        "tier2_underserved_bgys": 4,
+        "population_served": 22920,
+        "estimated_households": 4167,
+        "covered_barangays_list": "Kan-Mindus, Lianutan, Mananti, Andalan, Angilan, Lahing-Lahing, Niangkaan, Tangkuan",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3643,
+          5.9766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0013",
+        "rank": 13,
+        "hub_barangay": "Bongalon",
+        "municipality": "Labrador",
+        "province": "Pangasinan",
+        "region": "Region I (Ilocos Region)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 8,
+        "tier1_unserved_bgys": 7,
+        "tier2_underserved_bgys": 1,
+        "population_served": 22869,
+        "estimated_households": 5578,
+        "covered_barangays_list": "Laguit Padilla, Bolo, Bongalon, Laois, Poblacion, San Gonzalo, San Jose, Uyong",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1164,
+          15.977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0014",
+        "rank": 14,
+        "hub_barangay": "Ni\u00f1oy",
+        "municipality": "Aguilar",
+        "province": "Pangasinan",
+        "region": "Region I (Ilocos Region)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 7,
+        "tier1_unserved_bgys": 6,
+        "tier2_underserved_bgys": 1,
+        "population_served": 23333,
+        "estimated_households": 5691,
+        "covered_barangays_list": "Bayaoas, Bocacliw, Buer, Ni\u00f1oy, Pogonsili, Laoag, Salomague Sur",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1875,
+          15.8272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0015",
+        "rank": 15,
+        "hub_barangay": "Calumbog",
+        "municipality": "Marogong",
+        "province": "Lanao del Sur",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 14,
+        "tier1_unserved_bgys": 12,
+        "tier2_underserved_bgys": 2,
+        "population_served": 11828,
+        "estimated_households": 2151,
+        "covered_barangays_list": "Magulalung Oriental, Purakan, Pindolonan, Tataya, Betayan, Calumbog, Bitayan, Mantailoco (+6 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.1345,
+          7.6011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0016",
+        "rank": 16,
+        "hub_barangay": "Talitay",
+        "municipality": "Pagagawan",
+        "province": "Maguindanao del Sur",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 6,
+        "tier1_unserved_bgys": 6,
+        "tier2_underserved_bgys": 0,
+        "population_served": 20787,
+        "estimated_households": 3779,
+        "covered_barangays_list": "Bagoenged, Buliok, Kudal, Dalgan, Dungguan, Talitay",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.7524,
+          6.9904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0017",
+        "rank": 17,
+        "hub_barangay": "Simbahan (Pob.)",
+        "municipality": "Pangutaran",
+        "province": "Sulu",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 7,
+        "tier1_unserved_bgys": 5,
+        "tier2_underserved_bgys": 2,
+        "population_served": 18560,
+        "estimated_households": 3375,
+        "covered_barangays_list": "Kehi Niog, Lantong Babag, Lumah Dapdap, Panitikan, Simbahan (Pob.), Se-ipang, Tubig Sallang",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5688,
+          6.3043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0018",
+        "rank": 18,
+        "hub_barangay": "Calipapa",
+        "municipality": "Lumbaca-Unayan",
+        "province": "Lanao del Sur",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 10,
+        "tier1_unserved_bgys": 4,
+        "tier2_underserved_bgys": 6,
+        "population_served": 13859,
+        "estimated_households": 2520,
+        "covered_barangays_list": "Madaya, Penaring, Beta, Dinaigan, Polo, Pagalamatan, Piangologan, Buta (Sumalindao) (+2 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.2123,
+          7.7101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0019",
+        "rank": 19,
+        "hub_barangay": "Marabutuan",
+        "municipality": "Jose Abad Santos (Trinidad)",
+        "province": "Davao Occidental",
+        "region": "Region XI (Davao Region)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 5,
+        "tier1_unserved_bgys": 5,
+        "tier2_underserved_bgys": 0,
+        "population_served": 21134,
+        "estimated_households": 5284,
+        "covered_barangays_list": "Caburan Big, Caburan Small (Pob.), Magulibas, Marabutuan, Meybio",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5503,
+          5.921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0020",
+        "rank": 20,
+        "hub_barangay": "Panalawan",
+        "municipality": "Tagoloan",
+        "province": "Lanao del Norte",
+        "region": "Region X (Northern Mindanao)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 10,
+        "tier1_unserved_bgys": 7,
+        "tier2_underserved_bgys": 3,
+        "population_served": 13609,
+        "estimated_households": 3165,
+        "covered_barangays_list": "Kalilangan, Darimbang, Kiazar (Pob.), Malimbato, Panalawan, Cormatan, Malna Proper, Kasayanan West (+2 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.3564,
+          8.1302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0021",
+        "rank": 21,
+        "hub_barangay": "Taporog",
+        "municipality": "Munai",
+        "province": "Lanao del Norte",
+        "region": "Region X (Northern Mindanao)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 10,
+        "tier1_unserved_bgys": 10,
+        "tier2_underserved_bgys": 0,
+        "population_served": 13363,
+        "estimated_households": 3108,
+        "covered_barangays_list": "Balabacun, Balintad, Lininding, Pantaon, Pindolonan, Tamparan (Mandaya), Taporog, Culubun (+2 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.0827,
+          8.0129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0022",
+        "rank": 22,
+        "hub_barangay": "Manarug",
+        "municipality": "Javier (Bugho)",
+        "province": "Leyte",
+        "region": "Region VIII (Eastern Visayas)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 9,
+        "tier1_unserved_bgys": 9,
+        "tier2_underserved_bgys": 0,
+        "population_served": 13911,
+        "estimated_households": 3235,
+        "covered_barangays_list": "Bunga, Guadalupe (Utod), Marcos, Pangasungan, San Agustin, Kagbana, Binulho, Manarug (+1 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.8642,
+          10.8014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0023",
+        "rank": 23,
+        "hub_barangay": "Looc",
+        "municipality": "Culaba",
+        "province": "Biliran",
+        "region": "Region VIII (Eastern Visayas)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 11,
+        "tier1_unserved_bgys": 10,
+        "tier2_underserved_bgys": 1,
+        "population_served": 10762,
+        "estimated_households": 2503,
+        "covered_barangays_list": "Cabibihan, Acaban, Bool West (Pob.), Calipayan, Guindapunan, Habuhab, Looc, Marvel (Pob.) (+3 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.5127,
+          11.6222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0024",
+        "rank": 24,
+        "hub_barangay": "Songco",
+        "municipality": "Lantapan",
+        "province": "Bukidnon",
+        "region": "Region X (Northern Mindanao)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 5,
+        "tier1_unserved_bgys": 5,
+        "tier2_underserved_bgys": 0,
+        "population_served": 19734,
+        "estimated_households": 4589,
+        "covered_barangays_list": "Ka-atoan (Kaatuan), Cawayan, Kibangay, Songco, Victory",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.9432,
+          8.0784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0025",
+        "rank": 25,
+        "hub_barangay": "Libas",
+        "municipality": "Jabonga",
+        "province": "Agusan del Norte",
+        "region": "Region XIII (Caraga)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 6,
+        "tier1_unserved_bgys": 6,
+        "tier2_underserved_bgys": 0,
+        "population_served": 17501,
+        "estimated_households": 4070,
+        "covered_barangays_list": "Baleguian, Bangonay, Cuyago, Libas, Poblacion I, Pangaylan-IP",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.6425,
+          9.3062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0026",
+        "rank": 26,
+        "hub_barangay": "Sogod-Tibgao",
+        "municipality": "Virac (Capital)",
+        "province": "Catanduanes",
+        "region": "Region V (Bicol Region)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 10,
+        "tier1_unserved_bgys": 5,
+        "tier2_underserved_bgys": 5,
+        "population_served": 11477,
+        "estimated_households": 2550,
+        "covered_barangays_list": "Buhi, Poblacion District II, Poblacion District III, Katipunan, Pangilao, Solong, Calatagan Tibang, Danicop (+2 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.2252,
+          13.6246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0027",
+        "rank": 27,
+        "hub_barangay": "Rarab",
+        "municipality": "Nunungan",
+        "province": "Lanao del Norte",
+        "region": "Region X (Northern Mindanao)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 11,
+        "tier1_unserved_bgys": 11,
+        "tier2_underserved_bgys": 0,
+        "population_served": 9813,
+        "estimated_households": 2282,
+        "covered_barangays_list": "Dimarao, Kaludan, Lupitan, Mangan, Rarab, Raraban, Biasong, Liangan (Pob.) (+3 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.9345,
+          7.742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0028",
+        "rank": 28,
+        "hub_barangay": "Amas",
+        "municipality": "Brooke's Point",
+        "province": "Palawan",
+        "region": "Mimaropa Region",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 4,
+        "tier1_unserved_bgys": 4,
+        "tier2_underserved_bgys": 0,
+        "population_served": 19883,
+        "estimated_households": 4734,
+        "covered_barangays_list": "Amas, Imulnod, Pangobilian, Saraza",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.7415,
+          8.8271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0029",
+        "rank": 29,
+        "hub_barangay": "Bangco",
+        "municipality": "Nunungan",
+        "province": "Lanao del Norte",
+        "region": "Region X (Northern Mindanao)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 10,
+        "tier1_unserved_bgys": 6,
+        "tier2_underserved_bgys": 4,
+        "population_served": 10159,
+        "estimated_households": 2363,
+        "covered_barangays_list": "Piraka, Rebucon, Dalama, Mina, Abaga, Bangco, Rebucon, Baning (+2 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.8443,
+          7.7654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0030",
+        "rank": 30,
+        "hub_barangay": "Concepcion",
+        "municipality": "Paranas (Wright)",
+        "province": "Samar (Western Samar)",
+        "region": "Region VIII (Eastern Visayas)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 12,
+        "tier1_unserved_bgys": 12,
+        "tier2_underserved_bgys": 0,
+        "population_served": 7022,
+        "estimated_households": 1633,
+        "covered_barangays_list": "Angyap, Bonga, Capaysagan, Inalad, Concepcion, Jose Ro\u00f1o, Lawaan I, Nawi (+4 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.0624,
+          11.876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0031",
+        "rank": 31,
+        "hub_barangay": "Magnaga",
+        "municipality": "Pantukan",
+        "province": "Davao de Oro (Compostela Valley)",
+        "region": "Region XI (Davao Region)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 3,
+        "tier1_unserved_bgys": 2,
+        "tier2_underserved_bgys": 1,
+        "population_served": 19959,
+        "estimated_households": 4990,
+        "covered_barangays_list": "Bongabong, Magnaga, Tagdangua",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.9289,
+          7.1944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0032",
+        "rank": 32,
+        "hub_barangay": "Dalama",
+        "municipality": "Tubod (Capital)",
+        "province": "Lanao del Norte",
+        "region": "Region X (Northern Mindanao)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 8,
+        "tier1_unserved_bgys": 6,
+        "tier2_underserved_bgys": 2,
+        "population_served": 12032,
+        "estimated_households": 2798,
+        "covered_barangays_list": "Buntong, Calimodan, Pagalongan, Pansor, Pawak, Bualan, Dalama, Palao",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.9464,
+          7.9082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0033",
+        "rank": 33,
+        "hub_barangay": "Samer",
+        "municipality": "Butig",
+        "province": "Lanao del Sur",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 9,
+        "tier1_unserved_bgys": 2,
+        "tier2_underserved_bgys": 7,
+        "population_served": 10356,
+        "estimated_households": 1883,
+        "covered_barangays_list": "Coloyan Tambo, Dilimbayan, Poktan, Samer, Tiowi, Lakadun, Sawir, Cabuntungan (+1 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.3402,
+          7.7726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0034",
+        "rank": 34,
+        "hub_barangay": "Tubigan",
+        "municipality": "Maluso",
+        "province": "Basilan",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 8,
+        "tier1_unserved_bgys": 6,
+        "tier2_underserved_bgys": 2,
+        "population_served": 11809,
+        "estimated_households": 2147,
+        "covered_barangays_list": "Calang Canas, Mahayahay Lower (Zone I), Muslim Area, Tubigan, Mahayahay Upper (Zone II), Upper Garlayan, Libug, Baiwas",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.9279,
+          6.5052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0035",
+        "rank": 35,
+        "hub_barangay": "Katubao",
+        "municipality": "Kiamba",
+        "province": "Sarangani",
+        "region": "Region XII (Soccsksargen)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 4,
+        "tier1_unserved_bgys": 4,
+        "tier2_underserved_bgys": 0,
+        "population_served": 17740,
+        "estimated_households": 4224,
+        "covered_barangays_list": "Katubao, Lomuyon, Lumasal, Pananag",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.8333,
+          5.9535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0036",
+        "rank": 36,
+        "hub_barangay": "Lagandang",
+        "municipality": "Isulan (Capital)",
+        "province": "Sultan Kudarat",
+        "region": "Region XII (Soccsksargen)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 3,
+        "tier1_unserved_bgys": 2,
+        "tier2_underserved_bgys": 1,
+        "population_served": 18900,
+        "estimated_households": 4500,
+        "covered_barangays_list": "Bual, Lagandang, Laguilayan",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.413,
+          6.6167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0037",
+        "rank": 37,
+        "hub_barangay": "Daug",
+        "municipality": "Hinoba-an (Asia)",
+        "province": "Negros Occidental",
+        "region": "Region VI (Western Visayas)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 3,
+        "tier1_unserved_bgys": 2,
+        "tier2_underserved_bgys": 1,
+        "population_served": 18754,
+        "estimated_households": 4465,
+        "covered_barangays_list": "Asia, Culipapa, Daug",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.59,
+          9.5217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0038",
+        "rank": 38,
+        "hub_barangay": "Ngingir (Kabasaran)",
+        "municipality": "Pagayawan (Tatarikan)",
+        "province": "Lanao del Sur",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 10,
+        "tier1_unserved_bgys": 7,
+        "tier2_underserved_bgys": 3,
+        "population_served": 8167,
+        "estimated_households": 1485,
+        "covered_barangays_list": "Pantaon, Ayong, Biala-an, Mapantao, Ngingir (Kabasaran), Rangiran, Rubokun, Porug (+2 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.1002,
+          7.7559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0039",
+        "rank": 39,
+        "hub_barangay": "Inhobol",
+        "municipality": "Masinloc",
+        "province": "Zambales",
+        "region": "Region III (Central Luzon)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 3,
+        "tier1_unserved_bgys": 3,
+        "tier2_underserved_bgys": 0,
+        "population_served": 18026,
+        "estimated_households": 4397,
+        "covered_barangays_list": "Inhobol, Santa Rita, Salaza",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1126,
+          15.5201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0040",
+        "rank": 40,
+        "hub_barangay": "Tambilil",
+        "municipality": "Kiamba",
+        "province": "Sarangani",
+        "region": "Region XII (Soccsksargen)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 5,
+        "tier1_unserved_bgys": 5,
+        "tier2_underserved_bgys": 0,
+        "population_served": 14785,
+        "estimated_households": 3520,
+        "covered_barangays_list": "Datu Dani, Gasi, Kapate, Tamadang, Tambilil",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.703,
+          6.0164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0041",
+        "rank": 41,
+        "hub_barangay": "Marawi",
+        "municipality": "Tagoloan II",
+        "province": "Lanao del Sur",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 10,
+        "tier1_unserved_bgys": 8,
+        "tier2_underserved_bgys": 2,
+        "population_served": 7144,
+        "estimated_households": 1299,
+        "covered_barangays_list": "Rogero, Bayog, Cadayonan, Dimalama, Inodaran, Bagoaingud, Mama-an Pagalongan, Marawi (+2 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.4825,
+          8.0536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0042",
+        "rank": 42,
+        "hub_barangay": "Malalan",
+        "municipality": "Jose Abad Santos (Trinidad)",
+        "province": "Davao Occidental",
+        "region": "Region XI (Davao Region)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 5,
+        "tier1_unserved_bgys": 5,
+        "tier2_underserved_bgys": 0,
+        "population_served": 14197,
+        "estimated_households": 3549,
+        "covered_barangays_list": "Cayaponga, Kalbay, Malalan, Tabayon, Tanuman",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.4901,
+          5.7773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0043",
+        "rank": 43,
+        "hub_barangay": "Durian",
+        "municipality": "Picong (Sultan Gumander)",
+        "province": "Lanao del Sur",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 9,
+        "tier1_unserved_bgys": 8,
+        "tier2_underserved_bgys": 1,
+        "population_served": 8140,
+        "estimated_households": 1480,
+        "covered_barangays_list": "Calibagat, Bara-as, Bulangos, Durian, Ilian, Tual, Tuca, Anas (+1 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.0033,
+          7.6815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0044",
+        "rank": 44,
+        "hub_barangay": "Burabod",
+        "municipality": "Lagonoy",
+        "province": "Camarines Sur",
+        "region": "Region V (Bicol Region)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 7,
+        "tier1_unserved_bgys": 1,
+        "tier2_underserved_bgys": 6,
+        "population_served": 10880,
+        "estimated_households": 2418,
+        "covered_barangays_list": "Burabod, Ginorangan (Genorangan), Kinahologan, Manamoc, Omalo, Panagan, San Sebastian",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.563,
+          13.7617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0045",
+        "rank": 45,
+        "hub_barangay": "Narra (Pob.)",
+        "municipality": "Narra",
+        "province": "Palawan",
+        "region": "Mimaropa Region",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 3,
+        "tier1_unserved_bgys": 3,
+        "tier2_underserved_bgys": 0,
+        "population_served": 16485,
+        "estimated_households": 3925,
+        "covered_barangays_list": "Elvita, Malinao, Narra (Pob.)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3676,
+          9.343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0046",
+        "rank": 46,
+        "hub_barangay": "Mancol",
+        "municipality": "Calbayog City",
+        "province": "Samar (Western Samar)",
+        "region": "Region VIII (Eastern Visayas)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 12,
+        "tier1_unserved_bgys": 12,
+        "tier2_underserved_bgys": 0,
+        "population_served": 2938,
+        "estimated_households": 683,
+        "covered_barangays_list": "San Jose, Buenavista, Calocnayan, Esperanza, Gasdo, Helino, Hibatang, Jacinto (+4 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.6916,
+          12.2241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0047",
+        "rank": 47,
+        "hub_barangay": "Serongan",
+        "municipality": "Manukan",
+        "province": "Zamboanga del Norte",
+        "region": "Region IX (Zamboanga Peninsula)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 8,
+        "tier1_unserved_bgys": 8,
+        "tier2_underserved_bgys": 0,
+        "population_served": 8900,
+        "estimated_households": 2070,
+        "covered_barangays_list": "Lupasang, Serongan, Lingatongan, Meses, Pangandao, Patagan, Situbo, Balatakan",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.1057,
+          8.4443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0048",
+        "rank": 48,
+        "hub_barangay": "Mananggal",
+        "municipality": "Hadji Muhtamad",
+        "province": "Basilan",
+        "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 5,
+        "tier1_unserved_bgys": 5,
+        "tier2_underserved_bgys": 0,
+        "population_served": 13384,
+        "estimated_households": 2433,
+        "covered_barangays_list": "Lubukan, Luukbongsod, Mananggal, Palahangan, Tausan",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5799,
+          6.6378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0049",
+        "rank": 49,
+        "hub_barangay": "Malimanga",
+        "municipality": "Candelaria",
+        "province": "Zambales",
+        "region": "Region III (Central Luzon)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 5,
+        "tier1_unserved_bgys": 5,
+        "tier2_underserved_bgys": 0,
+        "population_served": 13324,
+        "estimated_households": 3250,
+        "covered_barangays_list": "Malabon (San Roque), Malimanga, Sinabacan, Taposo, Uacon",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1141,
+          15.6402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "N50-0050",
+        "rank": 50,
+        "hub_barangay": "Cabasaran (Laya)",
+        "municipality": "Nunungan",
+        "province": "Lanao del Norte",
+        "region": "Region X (Northern Mindanao)",
+        "radio_band": "5G NR Band n50 (1.5 GHz / 1432-1517 MHz TDD)",
+        "cell_radius_km": 6.0,
+        "unserved_bgys_covered": 9,
+        "tier1_unserved_bgys": 9,
+        "tier2_underserved_bgys": 0,
+        "population_served": 7066,
+        "estimated_households": 1643,
+        "covered_barangays_list": "Canibongan, Inayawan, Cabasaran (Laya), Liangan, Malaig, Pantar, Songgod, Tubaran (+1 more)",
+        "backhaul": "4x Starlink LEO Terminals (600 Mbps) w/ 4-WAN Aggregator",
+        "power_system": "16kW Solar + 12kW DC/450AH Li-Ion + 15kVA Diesel Gen",
+        "site_infra_capex_coloc_usd": 255898.0,
+        "site_infra_capex_greenfield_usd": 325898.0,
+        "cpe_unit_cost_usd": 55.0,
+        "core_network_model": "PHP 10.00 per subscriber/mo to Core Supplier ($0 upfront Core CAPEX)",
+        "suf_policy": "PHP 5.00 per subscriber/mo (in lieu of established SUF)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.9753,
+          7.8241
+        ]
+      }
+    }
+  ]
+}
